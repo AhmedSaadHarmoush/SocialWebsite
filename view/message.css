@@ -1,0 +1,241 @@
+    .message_fields{
+    position: fixed;
+    height: 0px;
+    width: 100%;
+    bottom: 272px;
+    background: rgba(0,0,0,0);
+    z-index: 20;
+    overflow:visible;
+    }
+    .message_field{
+        position:relative;
+        margin:0 20px;
+        overflow: hidden;
+        width:250px;
+        box-shadow: -2px -2px 10px ;
+        background: #19ab76;
+        float:right;
+        z-index:15;
+    }
+    .message_field .chat_close{
+        position:absolute;
+        height:12px;
+        top:4px;
+        right:4px;
+        cursor: pointer;
+    }
+    .chat_close img{
+        height:100%;
+    }
+    .messages{
+         height:215px;
+         overflow-x:hidden;
+         overflow-y: auto;
+    }
+    .msgs{
+        padding:10px 5px;
+        width:95%;
+        overflow-x:hidden;
+        overflow-y: auto;
+        background:whitesmoke;
+    }
+    .message_field .user_to{
+        position:relative;
+        height:22px;
+        font-size: 18px;
+        font-family: cursive;
+        line-height: 100%;
+        left:50%;
+        transform: translateX(-50%);
+        display:inline-block;
+    }
+    .msgs .msg_contain{
+        width:100%;
+        overflow:hidden;
+        /*display:table-footer-group;*/
+    }
+    .msgs .msg_contain img{
+        height:36px;
+    }
+    .msgs .msg_contain div span{
+        max-width: 75%;
+        margin:8px 5px;
+        padding:6px 5px;
+        line-height: 100%;
+        display: inline-block;
+        font-family: sans-serif;
+        font-size:14px;
+        font-weight: 700;
+        bottom:0;
+        word-wrap: break-word;
+    }
+    .msgs .to span{
+        float:left;
+        background: rgba(176, 186, 247, 0.6);
+        border-radius: 4px 10px 10px 4px ;
+        box-shadow: -2px 2px 10px;
+    }
+    .to img{
+        float:left;
+    }
+    .msgs .from span{
+        float:right;
+        background: rgba(198, 104, 185, 0.3);
+        border-radius: 10px 10px 4px 4px ;
+        box-shadow: 2px 2px 10px;
+    }
+    .from img{
+        float:right;
+    }
+    .chat_input{
+        width:253px;
+        height: 35px;
+        padding: 8px 12px;
+        resize:none;
+        word-break: break-all;
+    }
+    .typing{
+        position: absolute;
+        bottom: 35px;
+        background: rgb(207, 255, 236);
+        padding: 2px 4px;
+        font-size: 15px;
+        font-weight: 700;
+        left: 0;
+        display:none;
+    }
+
+
+
+/*.message_field{
+   position: relative;
+    height: 250px;
+    width: 240px;
+    float: right;
+    bottom:0;
+    margin:0 20px;  
+}
+
+top_message_field
+
+.top_message_field{
+    position: relative;
+    height: 10%;
+    width: 99.5%;
+    background: gray;
+    color: whitesmoke;
+    border: 1px solid black;
+    border-bottom: none;
+}
+ .top_message_field .close{
+    position: relative;
+    width: 10%;
+    height: 100%;
+    float: right;
+}
+.top_message_field .close_img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+ .top_message_field .message_caller{
+    position: relative;
+    height: 84%;
+    width: 75%;
+    overflow: hidden;
+    float: left;
+    padding: 2% 0 0 2%;
+}
+
+end top_message_field
+middle_message_field
+
+.middle_message_field{
+    position: relative;
+    width: 99.5%;
+    height: 76%;
+    background: darkgray;
+    color: whitesmoke;
+    border: 1px solid black;
+}
+.middle_message_field .sender{
+    position: relative;
+    width: 100%;
+    height: 14%;
+    top: 69%
+}
+.middle_message_field .sender img{
+    position: relative;
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+.middle_message_field .sender .send_text{
+    position: relative;
+    float: left;
+    padding: 2%;
+    background: cadetblue;
+    border-radius: 11px;
+}
+.middle_message_field .receiver{
+   position: relative;
+    width: 100%;
+    height: 14%;
+    top: 66%;
+}
+.middle_message_field .receiver img{
+    position: relative;
+    height: 100%;
+    width: 10%;
+    float: right;
+}
+.middle_message_field .receiver .receive_text{
+   position: relative;
+    float: right;
+    background: brown;
+    padding: 2%;
+    border-radius: 11px;
+}
+
+ end middle_message_field
+ bottom_message_field
+ 
+.bottom_message_field{
+    position: relative;
+    height: 14%;
+    width: 99.5%;
+    border: 1px solid black;
+    border-top: none;
+}
+.bottom_message_field .send{
+    position: relative;
+    height: 100%;
+    border: 0;
+    background: #f6f8e3;
+    width: 100%;
+    overflow: hidden;
+    padding: 2%;
+}
+.bottom_message_field textarea{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+     position:relative;
+    max-width: 100%;
+    min-width: 95%;
+    min-height: 120px;
+    border: 3px solid #cccccc;
+    padding: 8px;
+    background:#f6f8e3;
+    font-family: Tahoma, sans-serif;
+    font-size:15px;
+}
+.bottom_message_field textarea:focus{
+                background:white;
+            }
+
+end bottom_message_field*/
+
+
+

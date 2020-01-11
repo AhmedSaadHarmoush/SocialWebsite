@@ -1,0 +1,178 @@
+            #contain_wrapper{
+                position:absolute;
+                overflow-y: hidden;
+                overflow-x: auto;
+                margin-top: 210px;
+                margin-left:0;
+                z-index:5;
+                min-width: 560px;
+                width:100%;
+                transition: all 1s ease;
+            }
+/*            #contain_wrapper *{
+                transition: all 1s ease;
+            }*/
+            #wrapper{
+                width:560px;
+                min-height:100%;
+                position:relative;
+                margin:5px auto;
+                margin-top:0;
+                padding:0;
+                /*background:rgba(0,0,0,.45);*/
+                /*background:whitesmoke;*/
+                border-radius: 5px;
+                overflow:hidden;
+                z-index:-1;
+                z-index:6;
+            }
+            #wrapper .post_whole{
+                width:95%;
+                /*background:rgba(0,0,0,.15);*/
+                background:white;
+                margin:15px auto;
+                border-radius: 5px;
+                border-color:rgba(0,0,0,.75);
+                border-style:groove;
+                border-width:1px;
+            }
+            .post_whole .post{
+                padding:4px;
+                overflow:hidden;
+                border-bottom:1px solid rgba(0,0,0,.25);
+            }
+            .post .post_info{
+                overflow:hidden;
+                width:100%;
+            }
+            .post_whole .post_comment{
+                position: relative;
+                /*min-height:100px;*/
+                overflow:hidden;
+                /*background:rgba(0,0,0,.15);*/
+                /*background: rgb(199, 210, 221);*/
+                background: rgb(215, 238, 219);
+                /*background: rgb(199, 221, 199);*/
+            }
+            .post_whole .writer_pic{
+                width:10%;
+                float:left;
+            }
+            .post_whole .writer_pic img{
+                height:42px;
+                float:left;
+                position:relative;
+            }
+            .post_whole .writer{
+                position:relative;
+                float:left;
+                height:28px;
+                width:85%;
+                font-size:16px;
+                font-weight: bold;
+            }
+            .post_whole .created{
+                position:absolute;
+                right:20px;
+                margin-top:5px;
+                color:#999;
+                font-size:12px;
+            }
+            .post_whole .post .post_body{
+                overflow:hidden;
+                width:100%;
+                margin:0;
+                font-size:16px;
+                line-height: 20px;
+                padding:8px 5px;
+                font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+            }
+            .post_whole .post_functions{
+                float:right;
+                margin-right: 10px;
+                margin-bottom: 2px;
+                overflow:hidden;
+                transition:all .3s ease;
+                padding:1px 2px;
+            }    
+            .like_post{
+                padding:0 5px 0 0;
+                background: none;
+                overflow:hidden;
+                transition:all .3s ease;
+                float:right;
+                cursor: pointer;
+            }
+            .like_post:hover{
+                background:#c5f2ff;
+            }    
+            .post_functions:hover .likes_count{
+                color:#2980B9;
+            }
+            .post_whole .post_functions img{
+                height:16px;
+            }     
+            .post_whole .post_functions .reply{
+                color:#418c96;
+                padding:2px 0px 2px 6px;
+                float:right;
+                cursor: pointer;
+            }  
+            .post_whole .post_functions .likes_count{
+                color:#418c96;
+                font-size:100%;
+                padding:2px 0;
+            }
+            .comment_replies{
+                width:88%;
+                background:rgba(0,0,0,.04) !important;
+                float:right;
+                border-left:4px solid rgba(0,0,0,.2);
+                border-top:2px solid rgba(0,0,0,.2);
+                border-bottom:1px solid rgba(0,0,0,.2);
+            }
+            .comment_reply{
+                width:100%;
+                background:rgba(0,0,0,.04) !important;
+            }
+            .comment_reply .writer_pic img{
+                height:32px !important;
+            }
+            .post_whole .comment_body{
+                overflow:hidden;
+                width:100%;
+                margin:0;
+                padding:0 4px 10px 50px;
+                font-size:14px;
+                font-weight: 700;
+                font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+                display:inline;
+            }
+            .post_comment{
+                border-bottom: 3px solid rgba(0,0,0,.15);
+            }
+            .post_comment:last-child{
+                border-bottom: 0;
+            }
+            .post_comment .add_comment{
+                width:100%;
+            }
+            .post_comment .created{
+                position: absolute;
+                margin-top:5px;
+                right:0;
+            }
+            .add_comment textarea{
+                min-width:100%;
+                max-width:100%;
+                height: 30px;
+                position:relative;
+                border: 1px solid #cccccc;
+                padding: 2px 8px;
+                background:#f6f8e3;
+                font-family: Tahoma, sans-serif;
+                font-size:15px;
+                overflow-y:auto !important;
+                transition:all 1s ease;
+                resize: none;
+            }
